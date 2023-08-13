@@ -1,0 +1,119 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    place-items: center;
+}
+.summary-divs div{
+    place-items: center;
+    border-radius: 10px;
+    margin-bottom: 0.6rem;
+    display: grid;
+    height: 3rem;
+    grid-template-columns: 1fr 2fr 4fr;
+}
+.summary-divs div:p{
+    margin-left: 1rem;
+}
+.container-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;  
+    max-width: 40rem; 
+    align-self: center;
+    margin-top: 6rem;
+    border-radius: 2rem;
+    box-shadow:  0.1rem 0.5rem 1.5rem 1rem hsl(221, 100%, 96%);
+}
+.left-div{
+    color: white;
+    place-items: center;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1.2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    min-height: 23.5rem;
+    min-width: 15rem;
+    max-width: 16rem;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.left-div p{
+    font-size: 1rem;
+    color: hsl(241, 100%, 89%);
+}
+#last-p{
+    font-size: 0.85rem;
+    max-width: 12rem;
+    margin-left: 1.5rem;
+}
+.circle-div p{
+    position: relative;
+    bottom:1rem;
+    font-size: 0.8rem;
+    color: hsl(241, 100%, 89%);
+    
+}
+.circle-div h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.2rem;
+}
+.right-div{
+    place-items: center;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    border-left: 1px solid transparent;
+    border-radius: 2rem;
+    padding: 1rem;
+    padding-left: 4.5rem; 
+    padding-right: 2rem;
+    min-width: 15rem;
+    max-width: 15rem;
+    min-height: 23.7rem;
+    margin-left: -3rem;
+   
+}
+#cont{
+    margin-top: 1.6rem;
+    border-radius: 2rem;
+    border: 1px solid black;
+    justify-items: center;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+}
+#cont h4{
+    margin-left: 5.7rem;
+}
+.circle-div{
+    border-radius: 50%;
+    margin: 2rem;
+    padding: 0.7rem;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0))
+}
+#red{
+    color: hsl(0, 100%, 67%);
+}
+#yellow{
+    color: hsl(39, 100%, 56%);
+}
+#green{
+    color: hsl(166, 100%, 37%);
+}
+#blue{
+    color:  hsl(234, 85%, 45%);
+}
+span{
+    color: hsl(224, 30%, 27%);
+}
+.summary-divs p{
+    color: #a6a6a6;
+}
+
+@media (max-width:375px){
+    .container-div{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container-div">
+    <div class="left-div">
+        <p>Your Result</p>
+        <div class="circle-div">
+            <h1>76</h1>
+            <p>of 100</p>
+        </div>
+        <h2>Great</h2>
+        <p id="last-p">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+    <div class="right-div">
+        <h2>Summary</h2>
+        <div class="summary-divs">
+            <div style="background-color: #ffe6e6"><i id="red" class="fas fa-bolt"></i><p id="red">Reaction</p><p><span>80 </span>/ 100</p></div>
+            <div style="background-color: #fff7e6;"><i id="yellow" class="far fa-clock"></i><p  id="yellow">Memory</p><p><span>92 </span>/ 100</p></div>
+            <div style="background-color:  #e6fff9;"><i id="green" class="far fa-comment"></i><p id="green">Verbal</p><p><span>61 </span> / 100</p></div>
+            <div style="background-color: #e6ecff;"><i id="blue" class="far fa-eye"></i><p id=blue>Visual</p><p><span>72 </span> / 100</p></div>
+            <div id="cont"><h4 id="c">Continue</h4></div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

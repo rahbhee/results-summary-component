@@ -2,10 +2,14 @@
 body{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 8%;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
 }
 .summary-divs div{
     place-items: center;

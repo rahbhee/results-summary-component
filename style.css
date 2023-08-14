@@ -111,8 +111,9 @@ span{
     color: #a6a6a6;
 }
 
-@media (max-width:600px){
+@media (max-width:375px){
     .container-div{
         grid-template-columns: 1fr;
+        margin-top: 50%;
     }
 }
